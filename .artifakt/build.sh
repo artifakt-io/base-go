@@ -21,5 +21,4 @@ curl -sSLO https://github.com/artifakt-io/${REPO_NAME}/archive/refs/heads/${REPO
 sed -i "s/__RUNTIME_NAME__/${RUNTIME_NAME}/" $DOCROOT/index.html
 sed -i "s/__RUNTIME_LOGO__/${RUNTIME_LOGO}/" $DOCROOT/index.html
 
-
 echo ">>>>>>>>>>>>>> END CUSTOM BUILD SCRIPT <<<<<<<<<<<<<<<<< "
